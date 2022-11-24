@@ -10,7 +10,7 @@ namespace LogicalProgram
     {
         static void Main(string[] args)
         {
-            PrimeNumber.Prime();
+            ReverseNumber.Reverse();
             Console.ReadLine();
         }
     }
