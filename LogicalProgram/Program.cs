@@ -10,9 +10,8 @@ namespace LogicalProgram
     {
         static void Main(string[] args)
         {
-            PerfectNumber.Perfect();
+            PrimeNumber.Prime();
             Console.ReadLine();
-
         }
     }
 }
