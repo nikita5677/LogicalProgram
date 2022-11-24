@@ -10,7 +10,7 @@ namespace LogicalProgram
     {
         static void Main(string[] args)
         {
-            ReverseNumber.Reverse();
+            StopWatch.watch();
             Console.ReadLine();
         }
     }
