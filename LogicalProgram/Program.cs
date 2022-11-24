@@ -10,7 +10,7 @@ namespace LogicalProgram
     {
         static void Main(string[] args)
         {
-            StopWatch.watch();
+            CuponNumber.cupon();
             Console.ReadLine();
         }
     }
