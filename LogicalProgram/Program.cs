@@ -13,20 +13,6 @@ namespace LogicalProgram
             //FibbonnaciSeries.fibonnaci();
             //Console.ReadLine();
 
-            //CuponNumber.cupon();
-            //Console.ReadLine();
-
-            //PerfectNumber.Perfect();
-            //Console.ReadLine();
-
-            //PrimeNumber.Prime();
-            //Console.ReadLine();
-
-            //ReverseNumber.Reverse();
-            //Console.ReadLine();
-
-            //StopWatch.watch();
-            //Console.ReadLine();
         }
     }
 }
