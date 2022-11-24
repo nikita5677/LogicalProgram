@@ -10,29 +10,25 @@ namespace LogicalProgram
     {
         public static void Perfect()
         {
-
-            //variables
-            int n = 28;
-            int cube;
-            int remainder;
-            int result = 0;
-            int temp = n;
-            while (n != 0)
+            int n, i, sum;
+            Console.WriteLine("Enter  the  number : ");
+            n = Convert.ToInt32(Console.ReadLine());
+            sum = 0;
+            Console.Write("The positive divisor  : ");
+            for (i = 1; i < n; i++)
             {
-                //reverse Calculation
-                remainder = n % 10;
-                cube = remainder * remainder * remainder;
-                result = result + cube;
-                n = n / 10;
+                if (n % i == 0)
+                {
+                    sum = sum + i;
+                    Console.WriteLine("{0}  ", i);
+                }
             }
-            n = temp;
-            if(n == result)
-            {
-                Console.WriteLine("Is a Perfect Number");
-            }
-            {
-                Console.WriteLine("Is not a Perfect Number");
-            }
+            Console.WriteLine("The sum of the divisor is : {0}", sum);
+            if (sum == n)
+                Console.WriteLine("This number is perfect.");
+            else
+                Console.WriteLine("This number is not a perfect.");
+            Console.ReadLine();
         }
     }
 }
