@@ -20,8 +20,8 @@ namespace LogicalProgram
             {
                 //reverse Calculation
                 rem = number % 10; //123 % 10 = 3
-                result = result * 10 + rem; //0 
-                number = number / 10;
+                result = result * 10 + rem; //0 * 10 + 3 = 3
+                number = number / 10; //123 / 10 = 12
             }
             //print the reverse number
             Console.WriteLine("Reverse of Entered Number is : " + result);
