@@ -8,7 +8,7 @@ namespace LogicalProgram
 {
     class FibbonnaciSeries
     {
-        public static void fibonnaci()
+        public static void Fibonnaci()
         {
             int firstNumber = 0, SecondNumber = 1, nextNumber, numberOfElements;
             Console.Write("Enter the number of elements to Print : ");
